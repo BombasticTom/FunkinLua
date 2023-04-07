@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://bombastictom.github.io/funkinlua"
+base_url = "https://bombastictom.github.io/FunkinLua"
 title = "Docs"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -11,10 +11,14 @@ build_search_index = true
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+
+render_emoji = true
 highlight_code = true
 highlight_theme = "base16-ocean-light"
+
 [extra]
 # Put all your custom variables here
+
 logo = "https://easydocs.codeandmedia.com/logo.svg"
 favicon = "https://www.getzola.org/favicon.ico"
 easydocs_logo_always_clickable = true
