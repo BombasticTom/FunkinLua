@@ -62,6 +62,7 @@
             <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
             <div id="trees">
                 {% set section_ = get_section(path="3rdstrumline/_index.md") -%}
+                <a href=" {{ section_.permalink | safe }}{{ _ugly_url }}" style="color:#222">{{ section_.title }}</a>
                 {% for p in section_.subsections -%}
                     {% set subsection = get_section(path=p) -%}
 

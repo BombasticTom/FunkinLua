@@ -1,5 +1,5 @@
 +++
-title = "index"
+title = "Introduction"
 insert_anchor_links = "right"
 template = "docs/index.html"
 page_template = "docs/page.html"
