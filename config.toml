@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://bombastictom.github.io/FunkinLua"
+base_url = "https://bombastictom.github.io/funkinlua"
 title = "Docs"
 
 # Whether to automatically compile all Sass files in the sass directory
